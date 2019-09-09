@@ -89,9 +89,33 @@ footer {
   .logo {
     width: 20%;
   }
-  
+
   header > h1 {
     width: 80%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 11px;
+    list-style-type: none;
+    color: #ffffff;
+  }
+
+  .menu > li {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
   }
 
 }
